@@ -4,7 +4,7 @@
 - As funções são fundamentais dentro das linguagens de programação e o JavaScript não está fora disso. Uma função é um conjunto de instruções determinadas pelo programador e essas funções só serão executadas apenas quando forem chamadas e são utilizadas para evitar a repetição de códigos.
 
 # 📝 Declaração de Função
-- Para declarar uma função é preciso escrever a palavra-chave ***function*** e em seguida o nome dessa função, entre parenteses, um ou uma lista de paramentos separados por vírgulas e ao final a colocação de chaves ***{ }***, é dentro delas que iremos colocar nossas instruções.
+- Para declarar uma função é preciso escrever a palavra-chave ***function*** e em seguida o nome dessa função, entre parenteses, um ou mais paramentos separados por vírgulas e ao final a colocação de chaves ***{ }***, é dentro delas que iremos colocar nossas instruções.
   
 ```JavaScript
 function soma(numero){
