@@ -4,7 +4,7 @@
 - As funções são fundamentais dentro das linguagens de programação e o JavaScript não está fora disso. Uma função é um conjunto de instruções determinadas pelo programador e essas funções só serão executadas apenas quando forem chamadas e são utilizadas para evitar a repetição de códigos.
 
 # 📝 Declaração de Função
-- Para declarar uma função é preciso escrever a palavra-chave ***function*** e em seguida o nome dessa função, entre parenteses, um ou mais paramentos separados por vírgulas e ao final a colocação de chaves ***{ }***, é dentro delas que iremos colocar nossas instruções.
+⮞ Para declarar uma função é preciso escrever a palavra-chave ***function*** e em seguida o nome dessa função, entre parenteses, um ou mais paramentos separados por vírgulas e ao final a colocação de chaves ***{ }***, é dentro delas que iremos colocar nossas instruções.
   
 ```JavaScript
 function soma(numero){
@@ -18,7 +18,7 @@ console.log(soma(2));
 - E uma das desvantagens é a sobrecarga da memória, que pode consumir memória, especialmente se forem chamadas muitas vezes.
 
 # 🔄 Expressão de Função
-- Também é possível criar funções através de expressões de função, onde a função (pode ser anônima ou nomeada) é atribuída a uma variável.
+⮞ Também é possível criar funções através de expressões de função, onde a função (pode ser anônima ou nomeada) é atribuída a uma variável.
   
 ```JavaScript
 let soma = function (numero){
@@ -35,7 +35,7 @@ let recebeSoma = soma;
 
 # ➡️ Arrow Functions
 
-- As Arrows function no JavaScript são uma forma mais resumível escrever certas funções. Uma das principais mudanças dentro das Arrows Function é que não é necessário utilizar a palavra-chave ***function***. Porém, definimos as variáveis como constantes e usamos a função como seu valor. Além disso, dentro das Arrows Function iremos utilizar o sinal ***=>(seta)*** para definir a instrução da função e o valor que ela irá retornar.
+⮞ As Arrows function no JavaScript são uma forma mais resumível escrever certas funções. Uma das principais mudanças dentro das Arrows Function é que não é necessário utilizar a palavra-chave ***function***. Porém, definimos as variáveis como constantes e usamos a função como seu valor. Além disso, dentro das Arrows Function iremos utilizar o sinal ***=>(seta)*** para definir a instrução da função e o valor que ela irá retornar.
 
 ```JavaScript
 const subtracaoVersao2 = (a, b) => a - b;
